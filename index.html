@@ -12,7 +12,7 @@
     <!-- css for navbar -->
     <link rel="stylesheet" href="css/navbar.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Alice Organizes</title>
+    <title>Alice organizes</title>
 </head>
 
 <body>
@@ -37,10 +37,10 @@
                         <div class="tm-bg-circle-white tm-flex-center-v">
                             <header class="text-center">
                                 <img src="img/logo3.jpg" , height="100px">
-                                <h1 class="tm-site-title">Alice Organizes</h1>
-                                <p class="tm-site-subtitle">Custom Organization Solutions for your Kitchen, Office, Closets, Playrooms, Craft Rooms, Dens, Garages and More</p>
+                                <h1 class="tm-site-title">Alice organizes</h1>
+                                <p class="tm-site-subtitle">Custom organization solutions for your kitchen, office, closets, playroom, craft room, storage room, garage and more</p>
                             </header>
-                            <p>We apply our knack and passion for finding a home for everything in your collections.</p>
+                            <p></p>
                             <p class="text-center mt-4 mb-0">
                                 <a data-scroll href="#about" class="btn tm-btn-secondary">Continue...</a>
                             </p>
@@ -54,8 +54,8 @@
                 <div class="row">
                     <div class="col-xl-5 col-lg-6 tm-flex-center-v tm-text-container tm-section-left">
                         <h2 class="tm-color-secondary mb-4">About</h2>
-                        <p class="mb-4">Values matter to me. My designs can and do include the following elements: function, eco-friendlyness, second-hand, economical, creative and style-oriented.</p>
-                        <p class="mb-5">Organizing is creating a harmonious space that is soothing to the eye and effortless to function. My goal is to show you how to make your space efficient so you can spend less time tidying up and more time enjoying living in it.</p>
+                        <p class="mb-4">Organizing is creating a harmonious space that is soothing to the eye and effortless to function within. My goal is to show you how to make your space efficient so you can spend less time tidying up and more time enjoying living in it.</p>
+                        <p class="mb-5">Values matter to me. Where possible, I use Eco-friendly, second-hand, and economical options all by implementing functional, creative and stylish designs.</p>
                         <p class="text-right mb-0">
                             <a href="#services" class="btn tm-btn-secondary">Continue...</a>
                         </p>
@@ -74,11 +74,11 @@
                             <header>
                                 <h2 class="tm-color-primary">Services</h2>
                             </header>
-                            <p>You have 3 service packages to choose:</p>
-                            <ul class="dashed">
-                                <li>Premium <br>Initial consultation, step-by-step instructions, installation by us</li>
-                                <li>Moderate <br>Initial consultation, step-by-step instructions, installation shared between yourself and us</li>
-                                <li>Economical <br>Initial consultation, step-by-step tutorial, no installation assistance</li>
+                            <p>You have 3 service packages to choose from:</p>
+                            <ul class="none">
+                                <li>Premium: initial consultation, step-by-step instructions, installation by us</li>
+                                <li>Moderate: initial consultation, step-by-step instructions, installation shared between yourself and us</li>
+                                <li>Economical: initial consultation, step-by-step instructions, no installation assistance</li>
                             </ul>
                         </div>
                     </div>
@@ -102,15 +102,24 @@
                             <input type="checkbox" name="check[]" value="Premium"><br>
                             
                             <select size="1" name="type_service_sel">
-                            <option>Premuim</option>
+                            <option>Premium</option>
                             <option>Moderate</option>
                             <option>Economical</option></select>
                             
                             <div class="form-group mb-5">
                                 <textarea rows="5" id="contact_message" name="contact_message" class="form-control" placeholder="Message..." required></textarea>
                             </div>
+                            
+                            <div class="form-group mb-4">
+                                <input type="file" id="contact_email" name="photo" class="form-control" placeholder="Upload photo" required />
+                            </div>
+                            
                             <div class="form-group mb-0 text-right">
                                 <button type="submit" class="btn tm-btn-primary tm-send-btn">Send</button>
+                            </div>
+                            
+                             <div class="form-group mb-4">
+                                 <textarea rows="3" id="photonotice" name="photonotice" class="form-control" placeholder="Please prepare several photos, in my follow-up email response I will request these."></textarea>
                             </div>
                         </form>
                     </div>
