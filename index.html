@@ -17,7 +17,7 @@
 
 <body>
 
-    <!--navbar -->
+    <!--navbar
     <nav>
         <ul>
             <li><a href="#about">About</a></li>
@@ -72,9 +72,9 @@
                     <div class="col-sm-12 tm-section-2-right">
                         <div class="tm-bg-circle-white tm-bg-circle-pad-2 tm-flex-center-v">
                             <header>
-                                <h2 class="tm-color-primary">Services</h2>
+                                <h2 class="tm-color-primary mb-4">Services</h2>
                             </header>
-                            <p>You have 3 service packages to choose from:</p>
+                            <p class="mb-1">You have 3 service packages to choose from:</p>
                             <ul class="none">
                                 <li>Premium: initial consultation, step-by-step instructions, installation by us</li>
                                 <li>Moderate: initial consultation, step-by-step instructions, installation shared between yourself and us</li>
@@ -89,8 +89,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 tm-flex-center-v tm-section-left">
+                        <header>
+                                <h2 class="tm-color- mb-4 ml-4">Contact</h2>
+                            </header>
 
-                        <form action="https://formspree.io/ajjensson@gmail.com" class="tm-contact-form" method="POST">
+                        <form action="https://formspree.io/aliceorganiser@gmail.com" class="tm-contact-form" method="POST">
                           <!--  <input type="text" name="name">
                             <input type="email" name="_replyto">
                             <input type="submit" value="Send">-->
@@ -102,9 +105,11 @@
                             <div class="form-group mb-4">
                                 <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required />
                             </div>
-
+                            <div class="form-group mb-4">
+                                <input type="phone" id="contact_phone" name="contact_phone" class="form-control" placeholder="Phone Number"/>
+                            </div>
                             <!-- testing for input type -->
-                            <div class="form-group mb-5">
+                            <div class="form-group mb-4">
                                 <select size="1" name="type_service">
                                     <option>Premium</option>
                                     <option>Moderate</option>
@@ -134,6 +139,9 @@
         </section>
         <!--before & after slider -->
         <section id="work" class="tm-section pt-2 pb-3">
+             <header>
+                <h2 class="tm-color-primary mb-4 ml-5"> Work</h2>
+            </header>
             <div class="cocoen">
                 <img src="img/2a.jpg" alt="">
                 <img src="img/2b.jpg" alt="">
